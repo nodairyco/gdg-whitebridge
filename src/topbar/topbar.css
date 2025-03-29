@@ -79,11 +79,29 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    background: black;
+    gap: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .dropDownItem{
     text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    padding-left: 15px;
+    color: rgb(133,133,133);
+    width: 60%;
+    font-size: 500;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 50px;
+}
+
+.dropDownItem:hover{
+    color: white;
+    background-color: rgb(36, 36, 36);
 }
 
 .homeButton {

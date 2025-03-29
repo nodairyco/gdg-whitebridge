@@ -90,7 +90,7 @@ function NavItem(props) {
 
     return (
         <a className='navButton' onMouseEnter={() => { props.setIsHovered(true) }}
-            onMouseLeave={() => { props.setIsHovered(false) }}>
+            onMouseLeave={() => { props.setIsHovered(false) }} aria-disabled='true'>
             {props.name} <FontAwesomeIcon icon={faAngleDown} className='navButtonArrow' />
             {props.children}
         </a>
