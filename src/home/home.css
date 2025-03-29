@@ -1,5 +1,38 @@
-.home{
-    height: 200vh;
-    margin-top: 80px;
-    color: white;
-}
+/* Home Container */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Hero Image Styles */
+  .hero-image-container {
+    width: 100%;
+    margin-top: 20px; /* Space below navbar */
+    margin-bottom: 40px;
+    padding-top: 50px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 650px; /* Fixed height */
+    object-fit: cover; /* Ensures image fills container without distortion */
+    display: block;
+  }
+  
+  /* Existing Content Styles */
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .hero-image-container {
+      margin-top: 15px;
+      margin-bottom: 30px;
+    }
+  }
