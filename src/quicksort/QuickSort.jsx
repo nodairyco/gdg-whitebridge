@@ -1,5 +1,5 @@
 import React from 'react';
-import './DemoMessage.css';
+import './style.css';
 
 const DemoMessage = () => {
     return (
@@ -17,7 +17,7 @@ const DemoMessage = () => {
                 </div>
 
                 <div className="contact-info">
-                    <p>For full access, please contact our support team.</p>
+                    <p>Sorry, This algorithm will be added soon</p>
                 </div>
             </div>
         </div>
