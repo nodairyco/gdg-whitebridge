@@ -1,0 +1,81 @@
+.topBarContainer,
+.topBarContainer-border {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    transition: margin-top 0.3s ease-out;
+}
+
+.topBarContainer-border {
+    border-bottom: solid 1px rgb(36, 36, 36);
+    margin-top: 0px;
+}
+
+.navContainerHeader {
+    align-self: center;
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: flex-start;
+    gap: calc(-50px + 75vw - 75vw * 3/4);
+}
+
+.topBarNav {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.navButton {
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: larger;
+    padding: 5px 15px;
+    display: inline;
+}
+
+.navButton:hover {
+    background: rgb(36, 36, 36);
+    border-radius: 60px;
+}
+
+.homeButton {
+    height: 50px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: larger;
+    gap: 20px;
+    padding: 5px 15px;
+}
+
+.homeButton:hover {
+    background: rgb(36, 36, 36);
+    border-radius: 60px;
+}
+
+.navButtonArrow {
+    transition: transform 0.3s ease;
+}
+
+.navButton:hover .navButtonArrow {
+    transform: rotate(180deg);
+}
