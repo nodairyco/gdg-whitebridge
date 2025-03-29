@@ -1,0 +1,34 @@
+body {
+    width: 100vw;
+    height: fit-content;
+    margin: 0 0 0 0;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+}
+
+html {
+    overscroll-behavior: none;
+}
+
+.root {
+    width: 100vw;
+    height: fit-content;
+}
+
+.homeButtonDiv {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+#contentDiv {
+    background: blue;
+    width: 100vw;
+    height: 110vh;
+    font-family: 'JetBrains Mono', monospace;
+    padding-top: 1px;
+    padding-left: 370px;
+}
